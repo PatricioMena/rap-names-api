@@ -42,6 +42,6 @@ app.get('/api/:name', (request, response) => {
   // response.json(rappers);
 });
 
-app.listen(PORT, () => {
+app.listen(proccess.env.PORT, () => {
   console.log(`The server is now running on port ${PORT}! Betta Go Catch It`);
 });
